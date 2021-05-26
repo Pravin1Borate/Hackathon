@@ -30,4 +30,27 @@ For the above hackthon total **42320** people current rank for is **740**
 7. In future will try another algorithms and tune it so RMSE can get reduce more.
 
 
+# 2. Identify the Sentiments
 
+Sentiment analysis remains one of the key problems that has seen extensive application of natural language processing. This time around, given the tweets from customers about various tech firms who manufacture and sell mobiles, computers, laptops, etc, the task is to identify if the tweets have a negative sentiment towards such companies or products.
+
+**Evaluation Metric :**
+The metric used for evaluating the performance of classification model would be weighted F1-Score.
+
+[Please checkout the notebook for the result and approch](https://github.com/Pravin1Borate/Hackathon/blob/main/sentimental_analysis/Sentimental_analysis.ipynb)
+
+For the above hackthon total **6910** people current rank for is **291**
+
+### Approch:
+**Data Processing: **
+1. Lower-case all characters
+2. Remove twitter handles
+3. Remove urls
+4. Replace unidecode characters
+5. Only keep characters
+6. Keep words with length>1 only
+7. Replace words like 'whatisthis' to ' what is this'
+8. Remove repeated spaces
+
+**Result of classification:** \
+![alt text](https://github.com/Pravin1Borate/Hackathon/blob/main/sentimental_analysis/images/confusionmatrixreport.png "Logo Title Text 1")
