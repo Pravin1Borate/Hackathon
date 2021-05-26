@@ -42,7 +42,7 @@ The metric used for evaluating the performance of classification model would be 
 For the above hackthon total **6910** people current rank for is **291**
 
 ### Approch:
-**Data Processing: **
+**Data Processing:**
 1. Lower-case all characters
 2. Remove twitter handles
 3. Remove urls
